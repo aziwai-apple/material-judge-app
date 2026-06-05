@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("メタルジグ材質判定")
+st.title("タングステンチェッカー")
 
 with st.expander("測り方を見る"):
    
