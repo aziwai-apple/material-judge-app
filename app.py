@@ -2,8 +2,8 @@ import streamlit as st
 
 st.title("材質判定アプリ")
 
-z = st.number_input("空気中での重さ z (g)", min_value=0.0, step=0.1)
-y = st.number_input("水中での増加分 y (g)", min_value=0.0, step=0.1)
+z = st.number_input("重量 (g)", min_value=0.0, step=0.1)
+y = st.number_input("浮力 (g)", min_value=0.0, step=0.1)
 
 if st.button("判定する"):
     if y == 0:
