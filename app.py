@@ -1,6 +1,7 @@
 import streamlit as st
 
 st.title("タングステンチェッカー")
+st.info("重量と浮力から密度を計算し、タングステン・樹脂タングステン・鉛・鉄・アルミを判定します。")
 
 with st.expander("測り方を見る"):
    
